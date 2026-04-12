@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Rate Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        body {
+            background: #f5f5f5;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+            color: #1a1a1a;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 24px;
+            font-size: 14px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input, select {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e5e5e5;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: border-color 0.2s;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #4a90d9;
+        }
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        .toggle-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .toggle {
+            width: 48px;
+            height: 26px;
+            background: #ddd;
+            border-radius: 13px;
+            position: relative;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .toggle.active {
+            background: #4a90d9;
+        }
+        .toggle::after {
+            content: '';
+            position: absolute;
+            width: 22px;
+            height: 22px;
+            background: white;
+            border-radius: 50%;
+            top: 2px;
+            left: 2px;
+            transition: transform 0.2s;
+        }
+        .toggle.active::after {
+            transform: translateX(22px);
+        }
+        .toggle-label {
+            font-size: 14px;
+            color: #333;
+        }
+        button {
+            width: 100%;
+            padding: 16px;
+            background: #4a90d9;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #3a7bc8;
+        }
+        .results {
+            margin-top: 32px;
+            padding-top: 24px;
+            border-top: 2px solid #f0f0f0;
+            display: none;
+        }
+        .results.show {
+            display: block;
+        }
+        .results h2 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #1a1a1a;
+        }
+        .rate-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
+        }
+        .rate-card {
+            background: #f8f9fa;
+            padding: 16px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        .rate-card label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 4px;
+            font-weight: 500;
+        }
+        .rate-card .value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #1a1a1a;
+        }
+        .rate-card .value.highlight {
+            color: #4a90d9;
+        }
+        .benchmark {
+            background: #e8f4ff;
+            padding: 16px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .benchmark p {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.5;
+        }
+        .benchmark .suggestion {
+            font-weight: 600;
+            color: #4a90d9;
+        }
+        @media (max-width: 500px) {
+            .rate-cards {
+                grid-template-columns: 1fr;
+            }
+            .row {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💼 Freelance Rate Calculator</h1>
+        <p class="subtitle">Find out what you should be charging</p>
+        
+        <div class="form-group">
+            <label>Your City</label>
+            <select id="city">
+                <option value="1.0">United States (Average)</option>
+                <option value="1.35">New York, NY</option>
+                <option value="1.28">San Francisco, CA</option>
+                <option value="1.22">Los Angeles, CA</option>
+                <option value="1.18">Seattle, WA</option>
+                <option value="1.15">Boston, MA</option>
+                <option value="1.10">Denver, CO</option>
+                <option value="1.05">Austin, TX</option>
+                <option value="1.00">Chicago, IL</option>
+                <option value="0.92">Phoenix, AZ</option>
+                <option value="0.88">Houston, TX</option>
+                <option value="0.85">Dallas, TX</option>
+                <option value="0.80">Indianapolis, IN</option>
+                <option value="0.78">Kansas City, MO</option>
+            </select>
+        </div>
+        
+        <div class="form-group">
+            <label>Your Industry</label>
+            <select id="industry">
+                <option value="75">General Freelancing</option>
+                <option value="65">Writing & Copywriting</option>
+                <option value="85">Graphic Design</option>
+                <option value="95">Web Development</option>
+                <option value="90">UI/UX Design</option>
+                <option value="100">Video & Animation</option>
+                <option value="80">Digital Marketing</option>
+                <option value="70">Virtual Assistant</option>
+                <option value="110">Consulting</option>
+            </select>
+        </div>
+        
+        <div class="row">
+            <div class="form-group">
+                <label>Desired Annual Salary ($)</label>
+                <input type="number" id="salary" placeholder="50000" value="60000">
+            </div>
+            <div class="form-group">
+                <label>Billable Hours/Week</label>
+                <input type="number" id="hours" placeholder="30" value="25">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-group">
+                <label>Weeks Worked/Year</label>
+                <input type="number" id="weeks" placeholder="48" value="48">
+            </div>
+            <div class="form-group">
+                <label>State Tax Rate (%)</label>
+                <input type="number" id="tax" placeholder="5" value="5">
+            </div>
+        </div>
+        
+        <div class="toggle-group">
+            <div class="toggle" id="sideHustleToggle"></div>
+            <span class="toggle-label">I have a W-2 job + do freelance on the side</span>
+        </div>
+        
+        <button onclick="calculateRate()">Calculate My Rate</button>
+        
+        <div class="results" id="results">
+            <h2>Your Recommended Rates</h2>
+            <div class="rate-cards">
+                <div class="rate-card">
+                    <label>Hourly</label>
+                    <div class="value highlight" id="hourlyRate">$0</div>
+                </div>
+                <div class="rate-card">
+                    <label>Daily (8 hrs)</label>
+                    <div class="value" id="dailyRate">$0</div>
+                </div>
+                <div class="rate-card">
+                    <label>Project (40 hrs)</label>
+                    <div class="value" id="projectRate">$0</div>
+                </div>
+            </div>
+            
+            <div class="benchmark" id="benchmark">
+                <p id="benchmarkText"></p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        let sideHustleMode = false;
+        
+        document.getElementById('sideHustleToggle').addEventListener('click', function() {
+            sideHustleMode = !sideHustleMode;
+            this.classList.toggle('active', sideHustleMode);
+        });
+        
+        function calculateRate() {
+            const salary = parseFloat(document.getElementById('salary').value) || 0;
+            const hours = parseFloat(document.getElementById('hours').value) || 0;
+            const weeks = parseFloat(document.getElementById('weeks').value) || 0;
+            const taxRate = parseFloat(document.getElementById('tax').value) || 0;
+            const cityMultiplier = parseFloat(document.getElementById('city').value);
+            const industryPercentile = parseInt(document.getElementById('industry').value);
+            
+            if (!salary || !hours || !weeks) {
+                alert('Please fill in all required fields');
+                return;
+            }
+            
+            // Self-employment tax (15.3% on 92.35% of income)
+            const seTaxRate = 0.153 * 0.9235;
+            const totalTaxRate = (seTaxRate + (taxRate / 100));
+            
+            // Calculate base hourly rate needed
+            const totalHours = hours * weeks;
+            const hourlyBeforeTax = salary / totalHours;
+            const hourlyAfterTax = hourlyBeforeTax / (1 - totalTaxRate);
+            
+            // Apply city multiplier for cost of living
+            const adjustedHourly = hourlyAfterTax * cityMultiplier;
+            
+            // Round to nice numbers
+            const finalHourly = Math.ceil(adjustedHourly / 5) * 5;
+            const finalDaily = Math.ceil((finalHourly * 8) / 10) * 10;
+            const finalProject = Math.ceil((finalHourly * 40) / 50) * 50;
+            
+            // Display results
+            document.getElementById('hourlyRate').textContent = '$' + finalHourly;
+            document.getElementById('dailyRate').textContent = '$' + finalDaily.toLocaleString();
+            document.getElementById('projectRate').textContent = '$' + finalProject.toLocaleString();
+            
+            // Benchmark comparison
+            const industryRate = (industryPercentile / 100) * finalHourly;
+            const diff = finalHourly - industryRate;
+            const diffPercent = Math.round((diff / industryRate) * 100);
+            
+            let benchmarkText = '';
+            if (diffPercent > 10) {
+                benchmarkText = `Based on your city + industry, you're pricing slightly <span class="suggestion">above average (+${diffPercent}%)</span>. You're positioned well!`;
+            } else if (diffPercent < -10) {
+                benchmarkText = `Based on your city + industry, you could be <span class="suggestion">charging ${Math.abs(diffPercent)}% more</span> compared to others in your field. Consider raising rates.`;
+            } else {
+                benchmarkText = `Your rate is <span class="suggestion">aligned with market rates</span> for your city and industry. You're pricing competitively!`;
+            }
+            
+            if (sideHustleMode) {
+                const supplemental = Math.ceil((salary * 0.2) / totalHours / 5) * 5;
+                benchmarkText += `<br><br>💡 Since you have a W-2 job, you could charge a <span class="suggestion">supplemental rate of $${supplemental}/hr</span> for side work — clients expect to pay a premium for flexibility.`;
+            }
+            
+            document.getElementById('benchmarkText').innerHTML = benchmarkText;
+            document.getElementById('results').classList.add('show');
+        }
+    </script>
+</body>
+</html>
