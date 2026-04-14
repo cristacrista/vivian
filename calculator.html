@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelance Rate Calculator</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4740494257046553"
-     crossorigin="anonymous"></script>
+    <title>Freelance Rate Calculator - Calculate Your Hourly Rate by City</title>
+    <meta name="description" content="Free freelance rate calculator to determine your hourly, daily, and project rates. Adjusts for cost of living by city to help you price your services competitively.">
+    <meta name="keywords" content="freelance rate calculator, hourly rate calculator, freelance pricing, how to calculate freelance rate, freelancer rate by city, cost of living freelance rate">
     <style>
         * {
             margin: 0;
@@ -182,25 +182,25 @@
 <body>
     <div class="container">
         <h1>💼 Freelance Rate Calculator</h1>
-        <p class="subtitle">Find out what you should be charging</p>
+        <p class="subtitle">Calculate your hourly rate by city based on cost of living. Find out what to charge as a freelancer.</p>
         
         <div class="form-group">
             <label>Your City</label>
             <select id="city">
-                <option value="1.0">United States (Average)</option>
-                <option value="1.35">New York, NY</option>
-                <option value="1.28">San Francisco, CA</option>
-                <option value="1.22">Los Angeles, CA</option>
-                <option value="1.18">Seattle, WA</option>
-                <option value="1.15">Boston, MA</option>
-                <option value="1.10">Denver, CO</option>
-                <option value="1.05">Austin, TX</option>
-                <option value="1.00">Chicago, IL</option>
-                <option value="0.92">Phoenix, AZ</option>
-                <option value="0.88">Houston, TX</option>
-                <option value="0.85">Dallas, TX</option>
-                <option value="0.80">Indianapolis, IN</option>
-                <option value="0.78">Kansas City, MO</option>
+                <option value="1.0" data-tax="5.0">United States (Average)</option>
+                <option value="1.35" data-tax="6.0">New York, NY</option>
+                <option value="1.28" data-tax="9.3">San Francisco, CA</option>
+                <option value="1.22" data-tax="9.3">Los Angeles, CA</option>
+                <option value="1.18" data-tax="0">Seattle, WA</option>
+                <option value="1.15" data-tax="5.0">Boston, MA</option>
+                <option value="1.10" data-tax="4.4">Denver, CO</option>
+                <option value="1.05" data-tax="0">Austin, TX</option>
+                <option value="1.00" data-tax="5.0">Chicago, IL</option>
+                <option value="0.92" data-tax="2.5">Phoenix, AZ</option>
+                <option value="0.88" data-tax="0">Houston, TX</option>
+                <option value="0.85" data-tax="0">Dallas, TX</option>
+                <option value="0.80" data-tax="3.23">Indianapolis, IN</option>
+                <option value="0.78" data-tax="4.8">Kansas City, MO</option>
             </select>
         </div>
         
@@ -247,6 +247,7 @@
         </div>
         
         <button onclick="calculateRate()">Calculate My Rate</button>
+        <button onclick="resetCalculator()" style="background:#666;margin-top:10px">Reset</button>
         
         <div class="results" id="results">
             <h2>Your Recommended Rates</h2>
@@ -274,10 +275,31 @@
     <script>
         let sideHustleMode = false;
         
+        // Auto-fill state tax rate when city changes
+        document.getElementById('city').addEventListener('change', function() {
+            const selectedOption = this.options[this.selectedIndex];
+            const taxRate = selectedOption.getAttribute('data-tax');
+            if (taxRate !== null) {
+                document.getElementById('tax').value = taxRate;
+            }
+        });
+        
         document.getElementById('sideHustleToggle').addEventListener('click', function() {
             sideHustleMode = !sideHustleMode;
             this.classList.toggle('active', sideHustleMode);
         });
+        
+        function resetCalculator() {
+            document.getElementById('salary').value = '60000';
+            document.getElementById('hours').value = '25';
+            document.getElementById('weeks').value = '48';
+            document.getElementById('tax').value = '5';
+            document.getElementById('city').selectedIndex = 0;
+            document.getElementById('industry').selectedIndex = 0;
+            sideHustleMode = false;
+            document.getElementById('sideHustleToggle').classList.remove('active');
+            document.getElementById('results').classList.remove('show');
+        }
         
         function calculateRate() {
             const salary = parseFloat(document.getElementById('salary').value) || 0;
@@ -337,17 +359,5 @@
             document.getElementById('results').classList.add('show');
         }
     </script>
-    
-    <div style="margin-top: 30px; text-align: center;">
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-4740494257046553"
-             data-ad-slot="1234567890"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-    </div>
 </body>
 </html>
