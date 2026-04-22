@@ -27,7 +27,7 @@ Here's a statistic that might surprise you: **about 92% of new life insurance ag
 
 Why do so many quit? A few reasons:
 
-- **Lead costs are brutal** — Cold calling, door knocking, bugging friends and family — none of that scales. Once you burn through your warm leads, you're either buying expensive leads or starving. Most agents can't afford to keep buying forever.
+- **Lead costs are brutal** — Cold calling, door knocking, bugging friends and family — none of that scales. Once you burn through your warm leads, you're either buying expensive leads or starving. Most agents can't afford to keep buying forever. Lead costs can range from $1 for super old leads to $75+ for fresh mailers.
 - **The grind is real** — Cold calling, door-to-door, networking events. Most people don't stick with it.
 - **The income is inconsistent** — Some months you make money, some months you don't. It's not a salary.
 - **Expenses add up** — Licensing, continuing education, marketing, travel, leads — it adds up fast.
@@ -40,6 +40,9 @@ The ones who stick around are the ones who treat it like a real business — or 
 - Track every dollar — know your cost per sale
 - Build relationships, not just transactions — clients who like you are less likely to cancel
 - Expect the grind — don't expect to be profitable right away
+
+**A realistic income example:**
+Some agents come in and crush it — $300K+ in year one after expenses is possible. Others barely make it past the first year. It depends on your effort, your lead source, and how coachable you are. The top agents don't reinvent the wheel — they copy what works.
 
 ---
 
@@ -105,6 +108,7 @@ Thinking about becoming a life insurance agent? Watch out for these red flags:
 - **100% commission but you must buy your own leads** — Leads are expensive. If they're not providing them, you'll burn through money fast.
 - **They push you to recruit others** — Some companies care more about recruitment than actual sales. That's a red flag.
 - **No clear path to advancement** — If you can't see how to grow your income, it's not worth it.
+- **Super low commission rates** — Some brokerages pay 70% or less. If they're not providing leads, that's a red flag. However, some agencies do offer good leads with lower comp — that model can make sense. Just do the math before you sign.
 
 **Green flags to look for:**
 - They provide leads (even if they're not free)
@@ -152,6 +156,21 @@ If your goal is to build something bigger, here's the truth:
 
 **The long game:**
 Building a life insurance agency doesn't happen overnight. The agents who make it are the ones who stuck around when everyone else quit. If you're looking for fast money, this isn't the industry for you. But if you're willing to put in the work? The upside is real — and you could be driving a Lambo (or something similar!).
+
+---
+
+## How to Ensure You Win
+
+If you want to be one of the agents who makes it, here's what works:
+
+- **Be coachable** — Don't try to reinvent the wheel. Learn the process, then execute.
+- **Maintain your mindset** — Rejection comes with the territory. Shake it off and keep going.
+- **Constantly plug in** — Every day, do the work. Consistency beats intensity.
+- **Watch and listen to trainings** — The ones who win treat training like a job.
+- **Reach out to people who are winning** — Ask questions. Get advice. Don't go it alone.
+- **Build relationships** — People buy from people they like and trust. Be genuine.
+
+The agents who make it aren't necessarily the smartest — they're the ones who didn't quit.
 
 ---
 
