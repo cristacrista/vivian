@@ -4,7 +4,7 @@
 
 ## Intro
 
-After 9 years in this industry, I've seen more agents vanish than I can count. The ones who stay? Usually the ones who figured out early that this business isn't what the conferences make it look like.
+After 9 years in this industry, I've seen more agents vanish than I can count. The ones who stay? Usually the ones who figured out early that this business isn't what the conferences and glamorous social media posts make it look like.
 
 I'm not writing this to scare you away from life insurance. If you need it, you need it. But I'm tired of the glossy social media posts showing off Lambos and luxury cars while the reality for 90% of agents is a whole lot of door-knocking, rejection, and barely making rent.
 
