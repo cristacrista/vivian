@@ -150,7 +150,7 @@ If your goal is to build something bigger, here's the truth:
 - **About 1 out of 10 agents never really get started** — They get licensed, maybe go to a few meetings, but never actually sell anything. They fade out quietly.
 
 **The long game:**
-Building a life insurance agency is a 5-10 year play. The agents who make it are the ones who stuck around when everyone else quit. If you're looking for fast money, this isn't the industry for you. But if you're willing to put in the work? The upside is real.
+Building a life insurance agency doesn't happen overnight. The agents who make it are the ones who stuck around when everyone else quit. If you're looking for fast money, this isn't the industry for you. But if you're willing to put in the work? The upside is real — and you could be driving a Lambo (or something similar!).
 
 ---
 
