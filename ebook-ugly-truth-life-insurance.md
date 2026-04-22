@@ -106,7 +106,7 @@ Thinking about becoming a life insurance agent? Watch out for these red flags:
 - **High upfront costs** — Legitimate agencies don't require you to pay huge onboarding fees upfront.
 - **Promises of easy money** — If it sounds too good to be true, it is.
 - **No training** — A good agency will teach you the product and process, not just hand you a phone list.
-- **100% commission but you must buy your own leads** — Leads are expensive. If they're not providing them, you'll burn through money fast.
+- **100% commission with no leads provided** — Most brokerages work this way. It's not a red flag — just know you'll need to budget for leads. I'd recommend starting with cheap aged leads ($1-5) as a new agent before upgrading to fresh mailers ($25+).
 - **They push you to recruit others** — Some companies care more about recruitment than actual sales. That's a red flag.
 - **No clear path to advancement** — If you can't see how to grow your income, it's not worth it.
 - **Super low commission rates** — Some brokerages pay 70% or less. If they're not providing leads, that's a red flag. However, some agencies do offer good leads with lower comp — that model can make sense. Just do the math before you sign.
