@@ -32,7 +32,7 @@ The ones who stick around are the ones who treat it like a real business — or 
 
 ## Chapter 2: Chargebacks — The Silent Killer
 
-If there's one thing I wish every client understood, it's this: **chargebacks can destroy an agent's business.**
+If there's one thing I wish every new agent understood, it's this: **chargebacks can destroy an agent's business.**
 
 Here's how it really works:
 
