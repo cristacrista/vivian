@@ -148,6 +148,7 @@ If your goal is to build something bigger, here's the truth:
 - **The best agents treat it as a business** — Not a job. Marketing, systems, processes.
 - **Selling your book is possible** — But only if it's sizable. A small book of 50 policies? Not worth much.
 - **About 1 out of 10 agents never really get started** — They get licensed, maybe go to a few meetings, but never actually sell anything. They fade out quietly.
+- **Chargebacks roll uphill** — If your agents don't cover their chargebacks, they roll to you. That means if an agent cancels a bunch of policies and can't pay back the commissions, you're on the hook. This is why vetting your agents matters — one problem agent can cost you thousands.
 
 **The long game:**
 Building a life insurance agency doesn't happen overnight. The agents who make it are the ones who stuck around when everyone else quit. If you're looking for fast money, this isn't the industry for you. But if you're willing to put in the work? The upside is real — and you could be driving a Lambo (or something similar!).
