@@ -39,7 +39,7 @@ The ones who stick around are the ones who treat it like a real business — or 
 - Don't rely on warm leads alone — figure out a sustainable lead source early
 - Track every dollar — know your cost per sale
 - Build relationships, not just transactions — clients who like you are less likely to cancel
-- Expect the grind — plan for 12-18 months before profitability
+- Expect the grind — don't expect to be profitable right away
 
 ---
 
