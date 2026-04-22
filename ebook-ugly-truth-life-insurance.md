@@ -1,4 +1,4 @@
-# The Ugly Truth About Life Insurance: What They Don't Teach You in Training
+# The Ugly Truth About Life Insurance Sales
 
 ---
 
@@ -113,10 +113,9 @@ If your goal is to build something bigger, here's the truth:
 
 ## Next Steps
 
-If this guide helped you, that's great. If you have questions or want to talk about your specific situation, I'm here to help. Reach out — I don't work on commission so I'm not pushy. Just honest advice.
+If this guide helped you, that's great. If you have questions or want to talk about your specific situation, feel free to reach out — I don't work on commission so I'm not pushy. Just honest advice.
 
 You can reach me at:
-- **Phone:** 317-395-3360
 - **Email:** cristainsbroker@gmail.com
 
-Thanks for reading. Stay smart out there.
+*By C*
