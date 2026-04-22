@@ -6,7 +6,7 @@
 
 After 9 years in this industry, I've seen more agents vanish than I can count. The ones who stay? Usually the ones who figured out early that this business isn't what the conferences and glamorous social media posts make it look like.
 
-I'm not writing this to scare you away from life insurance sales. But I'm tired of the glossy social media posts showing off Lambos and luxury cars while the reality for 90% of agents is a whole lot of door-knocking, rejection, and barely making rent.
+I'm not writing this to scare you away from life insurance sales. I'm tired of the glossy social media posts showing off Lambos and luxury cars while the reality for 90% of agents is a whole lot of door-knocking, rejection, and barely making rent.
 
 This guide is about the business side of life insurance — the stuff no one talks about. The chargebacks that can sink an agency. The fact that unless you build a big team, your residuals will never be enough to retire comfortably. The ugly stats on agent turnover.
 
