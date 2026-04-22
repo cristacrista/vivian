@@ -40,6 +40,7 @@ The ones who stick around are the ones who treat it like a real business — or 
 - Track every dollar — know your cost per sale
 - Build relationships, not just transactions — clients who like you are less likely to cancel
 - Expect the grind — don't expect to be profitable right away
+- Reinvest in leads, not vacations — the first few years, plow your commissions back into your business. Vacation money buys leads. Leads buy more commissions. Once your book is built, then you can travel.
 
 **A realistic income example:**
 Some agents come in and crush it — $300K+ in year one after expenses is possible. Others barely make it past the first year. It depends on your effort, your lead source, and how coachable you are. The top agents don't reinvent the wheel — they copy what works.
