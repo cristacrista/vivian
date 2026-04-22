@@ -12,6 +12,13 @@ This guide is about the business side of life insurance — the stuff no one tal
 
 If you're thinking about becoming a life insurance agent, read this first. It might save you a lot of time, money, and headaches.
 
+**What you'll learn:**
+- Why most new agents quit (and how to beat the odds)
+- How chargebacks can actually ruin your business
+- The truth about residuals and why they're not a retirement plan
+- Red flags to watch for before you sign with any agency
+- The questions you MUST ask before committing
+
 ---
 
 ## Chapter 1: The Vanishing Agent
@@ -27,6 +34,12 @@ Why do so many quit? A few reasons:
 - **The "Lambo" lie** — New agents see the Instagram posts and think it's easy. It's not.
 
 The ones who stick around are the ones who treat it like a real business — or get lucky with a solid lead source.
+
+**How to beat the odds:**
+- Don't rely on warm leads alone — figure out a sustainable lead source early
+- Track every dollar — know your cost per sale
+- Build relationships, not just transactions — clients who like you are less likely to cancel
+- Expect the grind — plan for 12-18 months before profitability
 
 ---
 
@@ -44,6 +57,12 @@ Here's how it really works:
 I've seen agents lose thousands of dollars to a single cancellation. You sell a policy, think you're making money, client cancels after 3 months, and suddenly you owe the carrier $5,000. Gone. Just like that.
 
 This is why agents push so hard to keep clients in the first few years. It's not about being pushy — it's because one cancellation can set you back months.
+
+**How to protect yourself:**
+- Stay in touch with clients — a quick check-in every few months goes a long way
+- Document everything — keep records of conversations and approvals
+- Don't oversell — if a policy doesn't fit, say no
+- Build a buffer — set aside 20-30% of each commission for potential chargebacks
 
 ---
 
@@ -69,6 +88,11 @@ If you build a big agency with multiple agents, you can create a team override i
 
 This is why so many agents quit. The math doesn't add up for most people. Either you build a team, or you're always chasing the next sale.
 
+**What actually works:**
+- Focus on building a team if you want long-term passive income
+- Look for carriers with the longest renewal periods (10+ years is golden)
+- Don't count residuals in your retirement plan until you have 200+ policies
+
 ---
 
 ## Chapter 4: Red Flags — When Becoming an Agent
@@ -81,6 +105,13 @@ Thinking about becoming a life insurance agent? Watch out for these red flags:
 - **100% commission but you must buy your own leads** — Leads are expensive. If they're not providing them, you'll burn through money fast.
 - **They push you to recruit others** — Some companies care more about recruitment than actual sales. That's a red flag.
 - **No clear path to advancement** — If you can't see how to grow your income, it's not worth it.
+
+**Green flags to look for:**
+- They provide leads (even if they're not free)
+- Training covers both product knowledge AND sales process
+- Commission structure is transparent and in writing
+- They have a track record of retaining agents past year one
+- Support is available — not just dumped in and forgotten
 
 ---
 
@@ -96,6 +127,15 @@ Before you sign up, ask these questions:
 6. **How much support/training do you provide?**
 7. **What's the average new agent's income in year one?**
 
+**Why each question matters:**
+- Leads: Without them, you're starting from zero
+- Commission: Know exactly what you're earning per sale
+- Residuals: This affects your long-term income potential
+- Cancellation policy: Can trap you or cost you money
+- 1099 vs contract: Huge tax and legal implications
+- Training: Without it, you're shooting blind
+- Average income: Realistic expectations save heartbreak
+
 ---
 
 ## Chapter 6: The Realities of Building an Agency
@@ -108,6 +148,9 @@ If your goal is to build something bigger, here's the truth:
 - **The best agents treat it as a business** — Not a job. Marketing, systems, processes.
 - **Selling your book is possible** — But only if it's sizable. A small book of 50 policies? Not worth much.
 - **About 1 out of 10 agents never really get started** — They get licensed, maybe go to a few meetings, but never actually sell anything. They fade out quietly.
+
+**The long game:**
+Building a life insurance agency is a 5-10 year play. The agents who make it are the ones who stuck around when everyone else quit. If you're looking for fast money, this isn't the industry for you. But if you're willing to put in the work? The upside is real.
 
 ---
 
