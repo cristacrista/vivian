@@ -118,4 +118,4 @@ If this guide helped you, that's great. If you have questions or want to talk ab
 You can reach me at:
 - **Email:** cristainsbroker@gmail.com
 
-*By C*
+*By CC*
