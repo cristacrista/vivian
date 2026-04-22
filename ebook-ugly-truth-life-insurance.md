@@ -58,7 +58,7 @@ When agents talk about "passive income" or "residuals," they make it sound like 
 - It only lasts as long as the client keeps paying
 - If they cancel, the residuals stop
 
-**Here's the kicker:**
+**Here's the kicker.**
 - Many companies only pay renewals for a set number of years (often 5-10 years), not for the lifetime of the policy
 - Unlike health insurance or Medicare supplements (where you can build a nice book that pays you for life), life insurance residuals are small and time-limited
 - Unless you have hundreds of active policies, you're not quitting your day job
