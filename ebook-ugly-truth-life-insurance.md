@@ -86,7 +86,7 @@ Thinking about becoming a life insurance agent? Watch out for these red flags:
 
 ## Chapter 5: Questions to Ask Before Joining an Agency
 
-Before you sign up, ask these:
+Before you sign up, ask these questions:
 
 1. **Do you provide leads?** (And what's the cost?)
 2. **What's the commission structure?** (Get it in writing)
