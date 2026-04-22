@@ -10,7 +10,7 @@ I'm not writing this to scare you away from life insurance sales. But I'm tired 
 
 This guide is about the business side of life insurance — the stuff no one talks about. The chargebacks that can sink an agency. The fact that unless you build a big team, your residuals will never be enough to retire comfortably. The ugly stats on agent turnover.
 
-If you're thinking about buying life insurance, or even thinking about becoming an agent, read this first. It might save you a lot of time, money, and headaches.
+If you're thinking about becoming a life insurance agent, read this first. It might save you a lot of time, money, and headaches.
 
 ---
 
